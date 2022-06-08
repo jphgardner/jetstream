@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jetstream", "Jetstream\Jetstream.csproj", "{C9B4B79D-8E12-42B8-96BD-20D9B8E6EE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice", "Microservice\Microservice.csproj", "{895F6541-2FC6-43F7-B20C-6F5A755E2437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B4B79D-8E12-42B8-96BD-20D9B8E6EE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B4B79D-8E12-42B8-96BD-20D9B8E6EE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B4B79D-8E12-42B8-96BD-20D9B8E6EE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B4B79D-8E12-42B8-96BD-20D9B8E6EE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895F6541-2FC6-43F7-B20C-6F5A755E2437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895F6541-2FC6-43F7-B20C-6F5A755E2437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895F6541-2FC6-43F7-B20C-6F5A755E2437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895F6541-2FC6-43F7-B20C-6F5A755E2437}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

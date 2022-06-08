@@ -1,0 +1,14 @@
+﻿version: "3"
+services:
+  jetstream:
+    image: synadia/jsm:latest
+    entrypoint: /nats-server
+    command: --js --sd /data -p 4222
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+    volumes:
+      - './data/jetstream:/data/jetstream'
+        
+networks:
+  jetstream:
