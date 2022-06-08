@@ -1,10 +1,13 @@
 using Jetstream;
+using Microservice.Consumers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddJetstream(builder.Configuration);
+
+builder.Services.AddConsumer<TestPushConsumer>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
