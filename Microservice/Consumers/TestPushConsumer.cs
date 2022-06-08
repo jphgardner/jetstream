@@ -31,7 +31,7 @@ public class TestPushConsumer: PushConsumer<TestEvent>
         {
             
             Console.WriteLine("TestConsumer");
-            context.Message.Ack();
+            context.Message.AckSync(1000);
         }
         catch (Exception e)
         {
